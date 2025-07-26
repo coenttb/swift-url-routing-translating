@@ -1,6 +1,6 @@
 //
-//  URLRouting+Translating Tests.swift
-//  URLRouting+Translating
+//  URLRoutingTranslating Tests.swift
+//  URLRoutingTranslating
 //
 //  Created by Coen ten Thije Boonkkamp on 26/07/2025.
 //
@@ -11,7 +11,7 @@ import Foundation
 import Testing
 import Translating
 import URLRouting
-import URLRouting_Translating
+import URLRoutingTranslating
 
 // MARK: - Main Test Suite
 

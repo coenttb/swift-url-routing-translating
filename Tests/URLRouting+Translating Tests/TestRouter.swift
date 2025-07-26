@@ -1,13 +1,13 @@
 //
 //  TestRouter.swift
-//  URLRouting+Translating Tests
+//  URLRoutingTranslating Tests
 //
 //  Created by Coen ten Thije Boonkkamp on 26/07/2025.
 //
 
 import Translating
 import URLRouting
-import URLRouting_Translating
+import URLRoutingTranslating
 
 // MARK: - Test Route
 

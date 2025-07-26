@@ -4,7 +4,7 @@ import Foundation
 import PackageDescription
 
 extension String {
-    static let urlRoutingTranslating: Self = "URLRouting+Translating"
+    static let urlRoutingTranslating: Self = "URLRoutingTranslating"
 }
 
 extension Target.Dependency {
@@ -19,7 +19,7 @@ extension Target.Dependency {
 }
 
 let package = Package(
-    name: "coenttb-com-shared",
+    name: "swift-url-routing-translating",
     platforms: [
         .macOS(.v14),
         .iOS(.v17)

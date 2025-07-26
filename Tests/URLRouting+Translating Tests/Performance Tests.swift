@@ -1,6 +1,6 @@
 //
 //  Performance Tests.swift
-//  URLRouting+Translating Tests
+//  URLRoutingTranslating Tests
 //
 //  Created by Coen ten Thije Boonkkamp on 26/07/2025.
 //
@@ -11,14 +11,14 @@ import Foundation
 import Testing
 import Translating
 import URLRouting
-import URLRouting_Translating
+import URLRoutingTranslating
 
 #if os(macOS) || os(iOS) || os(watchOS) || os(tvOS)
 import Darwin
 #endif
 
 @Suite(
-    "URLRouting+Translating Performance Tests",
+    "URLRoutingTranslating Performance Tests",
     .serialized,
     .disabled("Enable for performance testing")
 )

@@ -1,10 +1,10 @@
-# URLRouting+Translating
+# URLRoutingTranslating
 
 ![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
 [![Swift 6.0](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%2017%20|%20macOS%2014-blue.svg)](https://swift.org)
 
-URLRouting+Translating seamlessly integrates multilingual string support into URL routing by extending [swift-translating](https://github.com/coenttb/swift-translating) with [swift-url-routing](https://github.com/pointfreeco/swift-url-routing) capabilities.
+URLRoutingTranslating seamlessly integrates multilingual string support into URL routing by extending [swift-translating](https://github.com/coenttb/swift-translating) with [swift-url-routing](https://github.com/pointfreeco/swift-url-routing) capabilities.
 
 ## Features
 
@@ -19,7 +19,7 @@ URLRouting+Translating seamlessly integrates multilingual string support into UR
 
 ```swift
 import Translating
-import URLRouting_Translating
+import URLRoutingTranslating
 
 extension TranslatedString {
     static let home: TranslatedString = [
@@ -93,7 +93,7 @@ withDependencies {
 
 ## How It Works
 
-URLRouting+Translating extends `TranslatedString` to conform to URLRouting's `Parser` and `ParserPrinter` protocols:
+URLRoutingTranslating extends `TranslatedString` to conform to URLRouting's `Parser` and `ParserPrinter` protocols:
 
 ### Parsing Behavior
 - **Fast-path optimization**: Current language is checked first for best performance
@@ -162,12 +162,12 @@ targets: [
     .target(
         name: "YourTarget",
         dependencies: [
-            .product(name: "URLRouting+Translating", package: "swift-url-routing-translating")
+            .product(name: "URLRoutingTranslating", package: "swift-url-routing-translating")
         ]
     )
 ]
 
-// import URLRouting_Translating
+// import URLRoutingTranslating
 ```
 
 ### Xcode
