@@ -1,5 +1,5 @@
 {
-  "originHash" : "9edb6a5bb3f7c4d562a11197b6aa09d088ab9ff67009ce91045e87cd4664b76a",
+  "originHash" : "b52b23e6b8e104e9ccf24af8b8dee5fe2c8ac061712c17875684f18e11e0b728",
   "pins" : [
     {
       "identity" : "combine-schedulers",
@@ -31,7 +31,7 @@
     {
       "identity" : "swift-collections",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-collections.git",
+      "location" : "https://github.com/apple/swift-collections",
       "state" : {
         "revision" : "8c0c0a8b49e080e54e5e328cc552821ff07cd341",
         "version" : "1.2.1"
@@ -49,16 +49,16 @@
     {
       "identity" : "swift-dependencies",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-dependencies",
+      "location" : "https://github.com/pointfreeco/swift-dependencies.git",
       "state" : {
-        "revision" : "4c90d6b2b9bf0911af87b103bb40f41771891596",
-        "version" : "1.9.2"
+        "revision" : "eefcdaa88d2e2fd82e3405dfb6eb45872011a0b5",
+        "version" : "1.9.3"
       }
     },
     {
       "identity" : "swift-parsing",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-parsing.git",
+      "location" : "https://github.com/pointfreeco/swift-parsing",
       "state" : {
         "revision" : "3432cb81164dd3d69a75d0d63205be5fbae2c34b",
         "version" : "0.14.1"
@@ -78,14 +78,14 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/coenttb/swift-translating.git",
       "state" : {
-        "revision" : "bcdace8349ec3c02864deec406af01a891232d6a",
-        "version" : "0.1.0"
+        "revision" : "a2fd4d0c4b705301a24c8a2ae9dfda8a83e49874",
+        "version" : "0.2.0"
       }
     },
     {
       "identity" : "swift-url-routing",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-url-routing",
+      "location" : "https://github.com/pointfreeco/swift-url-routing.git",
       "state" : {
         "revision" : "1cfd564259ecb1d324bb718a8f03e513dab738d2",
         "version" : "0.6.2"
