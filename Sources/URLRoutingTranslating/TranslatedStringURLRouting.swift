@@ -169,34 +169,3 @@ private actor TranslatedStringParsingCache {
         cache.removeAll()
     }
 }
-
-// MARK: - Usage Examples
-
-/*
- // In your router:
- 
- extension Route.Website {
-     public struct Router: ParserPrinter, Sendable {
-         public var body: some URLRouting.Router<Route.Website> {
-             OneOf {
-                 // Always use .slug() for URL-friendly paths
-                 URLRouting.Route(.case(Route.Website.privacy_statement)) {
-                     Path { String.privacyStatement.slug() }
-                 }
-                 
-                 // The parser will match "privacy-statement" in English
-                 // and "privacyverklaring" in Dutch
-             }
-         }
-     }
- }
- 
- // In your string definitions:
- 
- extension String {
-     static let privacyStatement = TranslatedString(
-         english: "privacy statement",    // Will become "privacy-statement"
-         dutch: "privacyverklaring"       // Already URL-friendly
-     )
- }
- */
