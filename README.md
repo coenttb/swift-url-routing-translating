@@ -121,7 +121,7 @@ withDependencies {
 URLRoutingTranslating extends `TranslatedString` to conform to URLRouting's `Parser` and `ParserPrinter` protocols.
 
 #### Parsing Behavior
-- Fast-path optimization: Current language is checked first for best performance
+- Fast-path optimization: Current language is checked first for optimal performance
 - Fallback matching: If current language doesn't match, all other available languages are tried
 - Helpful errors: Failed parsing provides all available translations for debugging
 
@@ -174,8 +174,8 @@ extension TranslatedString: Parser, ParserPrinter {
 
 ## Related Packages
 
-- [swift-translating](https://github.com/coenttb/swift-translating) - Provides the TranslatedString type and multilingual string support
-- [swift-url-routing](https://github.com/pointfreeco/swift-url-routing) - Type-safe URL routing library from Point-Free
+- [swift-translating](https://github.com/coenttb/swift-translating) - A Swift package for inline translations.
+- [swift-url-routing](https://github.com/pointfreeco/swift-url-routing) - A bidirectional router with more type safety and less fuss.
 
 ## Contributing
 
