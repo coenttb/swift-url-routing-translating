@@ -174,8 +174,18 @@ extension TranslatedString: Parser, ParserPrinter {
 
 ## Related Packages
 
-- [swift-translating](https://github.com/coenttb/swift-translating) - A Swift package for inline translations.
-- [swift-url-routing](https://github.com/pointfreeco/swift-url-routing) - A bidirectional router with more type safety and less fuss.
+### Dependencies
+
+- [swift-translating](https://github.com/coenttb/swift-translating): A Swift package for inline translations.
+
+### Used By
+
+- [swift-types-foundation](https://github.com/coenttb/swift-types-foundation): A Swift package bundling essential type-safe packages for domain modeling.
+
+### Third-Party Dependencies
+
+- [pointfreeco/swift-dependencies](https://github.com/pointfreeco/swift-dependencies): A dependency management library for controlling dependencies in Swift.
+- [pointfreeco/swift-url-routing](https://github.com/pointfreeco/swift-url-routing): A bidirectional URL router with more type safety and less fuss.
 
 ## Contributing
 
