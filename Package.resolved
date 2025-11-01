@@ -78,8 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/coenttb/swift-translating.git",
       "state" : {
-        "revision" : "a2fd4d0c4b705301a24c8a2ae9dfda8a83e49874",
-        "version" : "0.2.0"
+        "revision" : "579ab6bbf7df46428335c618278cb7d9d3d4c897",
+        "version" : "0.3.0"
       }
     },
     {
